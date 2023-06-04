@@ -1,0 +1,61 @@
+{
+  "name": "mobileTerminal",
+  "version": "0.0.1",
+  "author": "xgx",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.22.3",
+    "@craco/craco": "^7.1.0",
+    "antd-mobile": "^5.30.0",
+    "autoprefixer": "^10.4.14",
+    "axios": "^1.3.2",
+    "babel-plugin-import": "^1.13.6",
+    "craco-less": "^2.0.0",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "font-spider-walker-strengthen": "^1.0.5",
+    "html5-qrcode": "^2.3.8",
+    "lib-flexible": "^0.3.2",
+    "mobx": "6.5.0",
+    "mobx-react-lite": "^3.4.0",
+    "postcss-loader": "^7.3.2",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^2.8.8",
+    "react": "^18.0.0",
+    "react-content-loader": "^6.2.1",
+    "react-dom": "^18.0.0",
+    "react-router": "6.8.1",
+    "react-router-dom": "6.8.1",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "prettier": "prettier --write ."
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.4",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^17.0.34",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "vconsole": "^3.14.6"
+  }
+}
